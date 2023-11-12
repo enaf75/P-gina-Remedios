@@ -1,0 +1,135 @@
+/**************************************** Texto *******************************************/
+body{
+    /*Color*/ 
+    color:rgb(0, 0, 0);
+    margin: 40px;
+    /*Fuente*/
+    font-family: 'Playfair Display', serif;
+    /*Para el color del fondo*/
+    background-color: #c4c4a6;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+
+/**************************************** Menú (Anclas) *******************************************/
+menu{
+    margin-left: 200px;
+    
+}
+
+a{
+    color: black;
+    font-size: 17px;
+    align-items: right;
+}
+
+a:hover{
+    /*Para que cambie de color al colocar el puntero*/
+    color:#3A98B9;
+}
+
+/**************************************** Título principal *******************************************/
+h1{ 
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    color:#562B08;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+/**************************************** Títulos secundarios *******************************************/
+h3{
+    color:#562B08;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-top: 80px;
+}
+
+/******************** Párrafos ***************************/
+p{
+    text-align: justify;
+}
+
+p1{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+form{
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+li{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+li2{
+    font-size: 15px;
+    
+    
+}
+
+
+/**************************************** IMAGENES *******************************************/
+.imgap{
+    /*Ancho (w) y alto(h) del objeto*/
+    width: 600px;
+    height: 250px;
+    /*Centrar la imagen*/
+    display: block;
+    margin: 0 auto;
+    /*borde del radio*/
+    border-radius: 5%;
+     /*Sombra*/
+     box-shadow: 1px 0px 50px black;
+}
+
+/*Creación de las Aves, 1957*/
+.img1{
+    /*Ancho (w) y alto(h) del objeto*/
+    width: 400px;
+    /*Centrar la imagen*/
+    display: block;
+    margin: 0 auto;
+     /*Sombra*/
+     box-shadow: 1px 0px 50px black;
+}
+
+.img2{
+    /*Ancho (w) y alto(h) del objeto*/
+    width: 280px;
+    /*Centrar la imagen*/
+    display: block;
+    margin: 0 auto;
+     /*Sombra*/
+     box-shadow: 1px 0px 50px black;
+}
+
+
+.link{
+    width: 800px;
+    /*borde del radio*/ 
+    border-radius: 13%;
+    /*Sombra*/
+    box-shadow: 1px 0px 50px black;
+    display: block; 
+    margin: 0 auto;
+}
+
+.carri{
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+     /*Sombra*/
+     box-shadow: 1px 0px 50px black;
+}
